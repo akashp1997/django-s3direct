@@ -3,6 +3,15 @@ import hmac
 
 from django.conf import settings
 
+
+def get_at(index, t):
+    try:
+        value = t[index]
+    except IndexError:
+        value = None
+    return value
+
+
 def get_s3direct_destinations():
     """Returns s3direct destinations.
 
