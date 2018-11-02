@@ -5,6 +5,6 @@ python:
 - 3.6
 
 install:
-- pip install -r examples/requirements.txt
+- pip install -r example/requirements.txt
 script:
 - python runtests.py
