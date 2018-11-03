@@ -4,7 +4,7 @@ django-s3direct
 Upload files directly to S3 from Django
 -------------------------------------
 
-[![Build Status](https://travis-ci.org/bradleyg/django-s3direct.svg?branch=master)](https://travis-ci.org/bradleyg/django-s3direct)
+[ ![Codeship Status for akashp1997/django-s3direct](https://app.codeship.com/projects/b3c47510-c14b-0136-7830-760e7cfc4e7d/status?branch=master)](https://app.codeship.com/projects/313671)
 
 Add direct uploads to AWS S3 functionality with a progress bar to file input fields.
 
